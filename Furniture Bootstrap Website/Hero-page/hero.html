@@ -63,11 +63,23 @@
         </div>
         <div class="offcanvas-body">
           <ul class="navbar-nav d-flex flex-column gap-3 list-unstyled">
-            <li><a class="nav-link" href="#">Home</a></li>
-            <li><a class="nav-link" href="#">Shop</a></li>
-            <li><a class="nav-link" href="#">Pages</a></li>
+            <li><a class="nav-link" href="./hero.html">Home</a></li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown">Shop</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item text-light" href="#">Shop Category</a></li>
+                <li><a class="dropdown-item text-light" href="#">Product Details</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown">Pages</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item text-light" href="../login-page/login.html">Login</a></li>
+                <li><a class="dropdown-item text-light" href="../Tracking-page/tracking.html">Tracking</a></li>
+              </ul>
+            </li>
             <li><a class="nav-link" href="#">Blog</a></li>
-            <li><a class="nav-link" href="#">Contact</a></li>
+            <li><a class="nav-link" href="../contact-page/contact.html">Contact</a></li>
           </ul>
           <hr />
           <ul class="navbar-nav d-flex flex-row gap-3 list-unstyled">
@@ -84,52 +96,57 @@
         </div>
       </div>
       <!-- section-2 -->
-      <section class="ms-5">
+      <section class="ms-md-5">
         <div id="carousel1" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
+            <!-- Slide 1 -->
             <div class="carousel-item active" data-bs-interval="2500">
-              <div class="container con-main">
+              <div class="container-fluid con-main">
                 <div class="row d-flex">
                   <div class="col-md-4 col-12 con">
-                    <p class="p-1 fs-1 fs-md-3 fw-bold">Wood & cloth sofa</p>
+                    <p class="p-1 fs-1 fs-md-3 fw-md-bold">Wood & cloth sofa</p>
                     <p class="p-2 fs-6 fs-md-5 fs-lg-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis sint deleniti quam amet optio possimus, quibusdam quia id accusamus.</p>
                     <button class="btn button btn-lg btn-primary mt-5 text-light" id="btn-1">Buy Now</button>
                   </div>
-                  <!-- Image column -->
+                  <!-- Image Column -->
                   <div class="col-md-8 d-none d-md-block">
-                    <img src="https://preview.colorlib.com/theme/aranoz/img/banner_img.png" class="mt-4 ps-5" alt="" width="75%" />
+                    <img src="https://preview.colorlib.com/theme/aranoz/img/banner_img.png" class="mt-4 ps-5" alt="Sofa Banner" width="75%" />
                   </div>
                 </div>
               </div>
             </div>
-            <!-- image-2 -->
+
+            <!-- Slide 2 -->
             <div class="carousel-item" data-bs-interval="2500">
               <div class="container con-main">
                 <div class="row d-flex">
+                  <!-- Text Column -->
                   <div class="col-md-4 col-12 con">
                     <p class="p-1 fs-1 fs-md-3 fw-bold">Wood & cloth sofa</p>
                     <p class="p-2 fs-6 fs-md-5 fs-lg-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis sint deleniti quam amet optio possimus, quibusdam quia id accusamus.</p>
                     <button class="btn button btn-lg text-light mt-5" id="btn-1">Buy Now</button>
                   </div>
-                  <!-- Image column -->
+                  <!-- Image Column -->
                   <div class="col-md-8 d-none d-md-block">
-                    <img src="https://preview.colorlib.com/theme/aranoz/img/banner_img.png" class="mt-4 ps-5" alt="" width="75%" />
+                    <img src="https://preview.colorlib.com/theme/aranoz/img/banner_img.png" class="mt-4 ps-5" alt="Sofa Banner" width="75%" />
                   </div>
                 </div>
               </div>
             </div>
-            <!-- image-3 -->
-            <div class="carousel-item">
+
+            <!-- Slide 3 -->
+            <div class="carousel-item" data-bs-interval="2500">
               <div class="container con-main">
                 <div class="row d-flex">
+                  <!-- Text Column -->
                   <div class="col-md-4 col-12 con">
                     <p class="p-1 fs-1 fs-md-3 fw-bold">Wood & cloth sofa</p>
                     <p class="p-2 fs-6 fs-md-5 fs-lg-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis sint deleniti quam amet optio possimus, quibusdam quia id accusamus.</p>
-                    <button class="btn button btn-lg text-light btn-primary mt-5" id="btn-1">Buy Now</button>
+                    <button class="btn button btn-lg btn-primary text-light mt-5" id="btn-1">Buy Now</button>
                   </div>
-                  <!-- Image column -->
+                  <!-- Image Column -->
                   <div class="col-md-8 d-none d-md-block">
-                    <img src="https://preview.colorlib.com/theme/aranoz/img/banner_img.png" class="mt-4 ps-5" alt="" width="75%" />
+                    <img src="https://preview.colorlib.com/theme/aranoz/img/banner_img.png" class="mt-4 ps-5" alt="Sofa Banner" width="75%" />
                   </div>
                 </div>
               </div>
@@ -667,8 +684,8 @@
     <section class="sec-8 my-5">
       <div class="container my-5">
         <div class="row">
-          <div class="col ">
-            <div class="card-group  mt-5 w-75  mx-auto">
+          <div class="col">
+            <div class="card-group mt-5 w-75 mx-auto">
               <div class="card border-top-0 border-start-0">
                 <img src="https://preview.colorlib.com/theme/aranoz/img/client_logo/client_logo_1.png" class="card-img-top img-fluid p-4" alt="Img-1 " />
               </div>
@@ -689,8 +706,8 @@
         </div>
         <div class="row">
           <div class="col">
-            <div class="card-group  w-75 mx-auto ">
-              <div class="card border-top-0 border-bottom-0 border-start-0  ">
+            <div class="card-group w-75 mx-auto">
+              <div class="card border-top-0 border-bottom-0 border-start-0">
                 <img src="https://preview.colorlib.com/theme/aranoz/img/client_logo/client_logo_3.png" class="card-img-top img-fluid p-4" alt="Img-1" />
               </div>
               <div class="card border-top-0 border-bottom-0">
@@ -702,7 +719,7 @@
               <div class="card border-top-0 border-bottom-0">
                 <img src="https://preview.colorlib.com/theme/aranoz/img/client_logo/client_logo_2.png" class="card-img-top img-fluid p-4" alt="Img-4" />
               </div>
-              <div class="card border-top-0 border-bottom-0   border-end-0">
+              <div class="card border-top-0 border-bottom-0 border-end-0">
                 <img src="https://preview.colorlib.com/theme/aranoz/img/client_logo/client_logo_1.png" class="card-img-top img-fluid p-4" alt="Img-5" />
               </div>
             </div>
@@ -712,63 +729,63 @@
     </section>
     <!-- footer -->
     <section class="sec-9 ms-lg-5">
-       <div class="container-fluid">
-        <div class="d-lg-flex ps-lg-5 hverr  my-5">
-        <ul class="list-unstyled  ms-lg-5">
-          <li class="mb-4 fw-semibold  fs-4 ">Top Products</li>
-          <li class=" hover">Managed Website</li>
-          <li class="mt-2  hover">Manage Reputation</li>
-          <li  class="mt-2  hover">Power Tools</li>
-          <li  class="mt-2  hover">Marketing Service</li>
-        </ul>
-        <ul class="list-unstyled  ms-lg-5">
-          <li class="mb-4 fw-semibold fs-4 ">Quick Links</li>
-          <li class=" hover ">Jobs</li>
-          <li class="mt-2 hover">Brand Assest</li>
-          <li  class="mt-2  hover">Investor Relations</li>
-          <li  class="mt-2  hover">Terms and Services</li>
-        </ul>
-        <ul class="list-unstyled  ms-lg-5">
-          <li class="mb-4 fw-semibold fs-4 ">Features</li>
-          <li class=" hover">Jobs</li>
-          <li class="mt-2  hover">Brand Assest</li>
-          <li  class="mt-2  hover">Investor Relations</li>
-          <li  class="mt-2  hover">Terms and Services</li>
-        </ul>
-        <ul class="list-unstyled ms-lg-5">
-          <li class="mb-4 fw-semibold fs-4 ">Resources</li>
-          <li class=" hover ">Guides</li>
-          <li class="mt-2  hover">Research</li>
-          <li  class="mt-2  hover">Experts</li> 
-          <li  class="mt-2  hover">Agencies</li>
-        </ul>
-        <ul class="list-unstyled  mx-lg-5">
-          <li class="mb-4 fw-semibold fs-4 ">Newsletters</li>
-          <li class=" hover mb-3">Heaven fruitful doesn't over lesser in days. Appear creeping</li>
-             <div class="input-group  mb-3">
-            <input type="text" class="form-control " placeholder="Your Email" aria-label="Recipient’s username" aria-describedby="button-addon2">
-              <button class="btn btn-outline-secondary btnemail text-white" type="button" id="button-addon2">subscribe Now</button></div>
-        </ul>
-       </div>
+      <div class="container-fluid">
+        <div class="d-lg-flex ps-lg-5 hverr my-5">
+          <ul class="list-unstyled ms-lg-5">
+            <li class="mb-4 fw-semibold fs-4">Top Products</li>
+            <li class="hover">Managed Website</li>
+            <li class="mt-2 hover">Manage Reputation</li>
+            <li class="mt-2 hover">Power Tools</li>
+            <li class="mt-2 hover">Marketing Service</li>
+          </ul>
+          <ul class="list-unstyled ms-lg-5">
+            <li class="mb-4 fw-semibold fs-4">Quick Links</li>
+            <li class="hover">Jobs</li>
+            <li class="mt-2 hover">Brand Assest</li>
+            <li class="mt-2 hover">Investor Relations</li>
+            <li class="mt-2 hover">Terms and Services</li>
+          </ul>
+          <ul class="list-unstyled ms-lg-5">
+            <li class="mb-4 fw-semibold fs-4">Features</li>
+            <li class="hover">Jobs</li>
+            <li class="mt-2 hover">Brand Assest</li>
+            <li class="mt-2 hover">Investor Relations</li>
+            <li class="mt-2 hover">Terms and Services</li>
+          </ul>
+          <ul class="list-unstyled ms-lg-5">
+            <li class="mb-4 fw-semibold fs-4">Resources</li>
+            <li class="hover">Guides</li>
+            <li class="mt-2 hover">Research</li>
+            <li class="mt-2 hover">Experts</li>
+            <li class="mt-2 hover">Agencies</li>
+          </ul>
+          <ul class="list-unstyled mx-lg-5">
+            <li class="mb-4 fw-semibold fs-4">Newsletters</li>
+            <li class="hover mb-3">Heaven fruitful doesn't over lesser in days. Appear creeping</li>
+            <div class="input-group mb-3">
+              <input type="text" class="form-control" placeholder="Your Email" aria-label="Recipient’s username" aria-describedby="button-addon2" />
+              <button class="btn btn-outline-secondary btnemail text-white" type="button" id="button-addon2">subscribe Now</button>
+            </div>
+          </ul>
+        </div>
+      </div>
     </section>
     <!-- last section -->
     <section class="sec-10">
       <footer>
-        <div class="container d-lg-flex justify-content-lg-between text-lg-start  ">
-        <div class="row my-3 ">
-          <div class="col">
-            <p class="text-muted">Copyright ©2025 All rights reserved | This template is made with <i class="fa-regular fa-heart"></i> by <span class="span-123">Colorlib</span></p>
+        <div class="container d-lg-flex justify-content-lg-between text-lg-start">
+          <div class="row my-3">
+            <div class="col">
+              <p class="text-muted">Copyright ©2025 All rights reserved | This template is made with <i class="fa-regular fa-heart"></i> by <span class="span-123">Colorlib</span></p>
+            </div>
           </div>
-        </div>
-          <div class="row my-3" >
-          <i class="fa-brands fa-facebook-f text-muted  me-3"></i>
+          <div class="row my-3">
+            <i class="fa-brands fa-facebook-f text-muted me-3"></i>
             <i class="fa-brands fa-twitter text-muted me-3"></i>
             <i class="fa-solid fa-globe text-muted me-3"></i>
             <i class="fa-brands fa-google text-muted me-3"></i>
-           </div>
+          </div>
         </div>
-      </div>
-
       </footer>
     </section>
 

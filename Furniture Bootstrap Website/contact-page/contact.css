@@ -60,3 +60,23 @@
 background-color: #FF174E;
         border: none;
 }
+.backcolor {
+  background: #e8eaed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 70vh;   
+  width: 80%;       
+  position: relative; 
+  margin: 0 auto;  
+}
+@media screen and (max-width:570px) {
+     .backcolor{
+        font-size: 10px;
+     }
+}
+.sendbtn{
+    background-color:#ff3368;
+    color: white;
+    border-radius: 20px;
+}
