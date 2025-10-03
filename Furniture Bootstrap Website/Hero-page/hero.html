@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>indecasa</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="hero.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <section id="home">
+      <nav class="navbar navbar-expand-lg ms-5">
+        <div class="container">
+          <a class="navbar-brand fs-3 fw-bold ms-5" href="#">IndieCasa.</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileMenu" aria-controls="mobileMenu">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse d-none d-lg-flex">
+            <ul class="navbar-nav mx-auto d-flex gap-4 list-unstyled">
+              <li class="nav-item"><a class="nav-link active text-dark" href="./hero.html">Home</a></li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown">Shop</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item text-light" href="#">Shop Category</a></li>
+                  <li><a class="dropdown-item text-light" href="#">Product Details</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown">Pages</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item text-light" href="../login-page/login.html">Login</a></li>
+                  <li><a class="dropdown-item text-light" href="../Tracking-page/tracking.html">Tracking</a></li>
+                </ul>
+              </li>
+              <li class="nav-item"><a class="nav-link text-dark" href="#">Blog</a></li>
+              <li class="nav-item"><a class="nav-link text-dark" href="#">Contact</a></li>
+            </ul>
+            <ul class="navbar-nav me-3 d-flex gap-3 list-unstyled">
+              <li>
+                <a class="nav-link" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+              </li>
+              <li>
+                <a class="nav-link" href="#"><i class="fa-regular fa-heart"></i></a>
+              </li>
+              <li>
+                <a class="nav-link" href="#"><i class="fa-solid fa-cart-plus"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="offcanvas offcanvas-start" tabindex="-1" id="mobileMenu" aria-labelledby="mobileMenuLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="mobileMenuLabel">IndieCasa.</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav d-flex flex-column gap-3 list-unstyled">
+            <li><a class="nav-link" href="#">Home</a></li>
+            <li><a class="nav-link" href="#">Shop</a></li>
+            <li><a class="nav-link" href="#">Pages</a></li>
+            <li><a class="nav-link" href="#">Blog</a></li>
+            <li><a class="nav-link" href="#">Contact</a></li>
+          </ul>
+          <hr />
+          <ul class="navbar-nav d-flex flex-row gap-3 list-unstyled">
+            <li>
+              <a class="nav-link" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+            </li>
+            <li>
+              <a class="nav-link" href="#"><i class="fa-regular fa-heart"></i></a>
+            </li>
+            <li>
+              <a class="nav-link" href="#"><i class="fa-solid fa-cart-plus"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- section-2 -->
+      <section class="ms-5">
+        <div id="carousel1" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="2500">
+              <div class="container con-main">
+                <div class="row d-flex">
+                  <div class="col-md-4 col-12 con">
+                    <p class="p-1 fs-1 fs-md-3 fw-bold">Wood & cloth sofa</p>
+                    <p class="p-2 fs-6 fs-md-5 fs-lg-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis sint deleniti quam amet optio possimus, quibusdam quia id accusamus.</p>
+                    <button class="btn button btn-lg btn-primary mt-5 text-light" id="btn-1">Buy Now</button>
+                  </div>
+                  <!-- Image column -->
+                  <div class="col-md-8 d-none d-md-block">
+                    <img src="https://preview.colorlib.com/theme/aranoz/img/banner_img.png" class="mt-4 ps-5" alt="" width="75%" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- image-2 -->
+            <div class="carousel-item" data-bs-interval="2500">
+              <div class="container con-main">
+                <div class="row d-flex">
+                  <div class="col-md-4 col-12 con">
+                    <p class="p-1 fs-1 fs-md-3 fw-bold">Wood & cloth sofa</p>
+                    <p class="p-2 fs-6 fs-md-5 fs-lg-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis sint deleniti quam amet optio possimus, quibusdam quia id accusamus.</p>
+                    <button class="btn button btn-lg text-light mt-5" id="btn-1">Buy Now</button>
+                  </div>
+                  <!-- Image column -->
+                  <div class="col-md-8 d-none d-md-block">
+                    <img src="https://preview.colorlib.com/theme/aranoz/img/banner_img.png" class="mt-4 ps-5" alt="" width="75%" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- image-3 -->
+            <div class="carousel-item">
+              <div class="container con-main">
+                <div class="row d-flex">
+                  <div class="col-md-4 col-12 con">
+                    <p class="p-1 fs-1 fs-md-3 fw-bold">Wood & cloth sofa</p>
+                    <p class="p-2 fs-6 fs-md-5 fs-lg-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis sint deleniti quam amet optio possimus, quibusdam quia id accusamus.</p>
+                    <button class="btn button btn-lg text-light btn-primary mt-5" id="btn-1">Buy Now</button>
+                  </div>
+                  <!-- Image column -->
+                  <div class="col-md-8 d-none d-md-block">
+                    <img src="https://preview.colorlib.com/theme/aranoz/img/banner_img.png" class="mt-4 ps-5" alt="" width="75%" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+    <!-- Featured category -->
+    <div class="container">
+      <div class="row">
+        <div class="col col-4 my-5 mx-auto fw-bold h1 text-center">Featured category</div>
+      </div>
+    </div>
+    <!-- card -->
+    <div class="container my-5">
+      <div class="row g-3">
+        <!-- First Card -->
+        <div class="col-12 col-md-6">
+          <div class="card h-100 cardimg">
+            <div class="row g-0 align-items-center">
+              <div class="col-6">
+                <div class="card-body p-4">
+                  <p class="text-muted mb-2">Premium Quality</p>
+                  <h4 class="fw-semibold">Latest Foam Sofa</h4>
+                  <div class="mt-4 fw-bold cardexplore">
+                    EXPLORE NOW
+                    <span class="ms-2"><i class="fa-solid fa-play"></i></span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6 text-md-end text-center">
+                <img src="https://preview.colorlib.com/theme/aranoz/img/feature/feature_1.png" class="img-fluid rounded-end my-5 float-end" alt="sofa" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Second Card -->
+        <div class="col-12 col-md-6">
+          <div class="card h-100 cardimg">
+            <div class="row g-0 align-items-center">
+              <div class="col-6">
+                <div class="card-body p-4">
+                  <p class="text-muted mb-2">Premium Quality</p>
+                  <h4 class="fw-semibold">Latest Foam Sofa</h4>
+                  <div class="mt-4 fw-bold cardexplore">
+                    EXPLORE NOW
+                    <span class="ms-2"><i class="fa-solid fa-play"></i></span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6 text-md-end text-center">
+                <img src="https://preview.colorlib.com/theme/aranoz/img/feature/feature_2.png" class="img-fluid rounded-end" alt="sofa" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- section-3 -->
+    <!-- card row-2 -->
+    <div class="container">
+      <div class="row g-3">
+        <!-- First Card -->
+        <div class="col-12 col-md-6">
+          <div class="card h-100 cardimg">
+            <div class="row g-0 align-items-center">
+              <div class="col-6">
+                <div class="card-body p-3">
+                  <p class="text-muted mb-2">Premium Quality</p>
+                  <h4 class="fw-semibold">Latest Foam Sofa</h4>
+                  <div class="mt-4 fw-bold cardexplore">
+                    EXPLORE NOW
+                    <span class="ms-2"><i class="fa-solid fa-play"></i></span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6 text-md-end text-center">
+                <img src="https://preview.colorlib.com/theme/aranoz/img/feature/feature_3.png" class="img-fluid rounded-end my-5 float-end" alt="sofa" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Second Card -->
+        <div class="col-12 col-md-6">
+          <div class="card h-100 cardimg">
+            <div class="row g-0 align-items-center">
+              <div class="col-6">
+                <div class="card-body ms-3 p-3">
+                  <p class="text-muted mb-2">Premium Quality</p>
+                  <h4 class="fw-semibold">Latest Foam Sofa</h4>
+                  <div class="mt-4 fw-bold cardexplore">
+                    EXPLORE NOW
+                    <span class="ms-2"><i class="fa-solid fa-play"></i></span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6 text-md-end text-center">
+                <img src="https://preview.colorlib.com/theme/aranoz/img/feature/feature_4.png" class="img-fluid rounded my-5 me-2 float-end" alt="sofa" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- section-4 -->
+    <!-- card row -->
+    <section class="sec-4">
+      <div class="container">
+        <div class="container cardrow4 mb-3">
+          <h1 class="fw-bold">
+            Awesome
+            <span class="text-muted ms-5 fs-4 fw-bold">shop</span>
+          </h1>
+        </div>
+        <nav aria-label="Page navigation example" class="d-flex justify-content-end mb-2">
+          <ul class="pagination">
+            <li class="page-item">
+              <button class="page-link btn-page fw-bold text-dark" type="button" data-bs-target="#carousel2rows" data-bs-slide="prev">Previous</button>
+            </li>
+            <li class="page-item">
+              <button class="page-link btn-page fw-bold text-dark" type="button" data-bs-target="#carousel2rows" data-bs-slide="next">Next</button>
+            </li>
+          </ul>
+        </nav>
+        <div id="carousel2rows" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <!-- Slide 1 -->
+            <div class="carousel-item active" data-bs-interval="2500">
+              <div class="row">
+                <!-- Row 1 -->
+                <div class="col-md-3">
+                  <div class="card cardmain shadow ms-3">
+                    <img src="https://preview.colorlib.com/theme/aranoz/img/product/product_1.png" class="card-img-top" alt="green-chair" />
+                    <div class="card-body cardbody my-3">
+                      <h5 class="card-title fw-bold">Green Chair</h5>
+                      <p class="card-text fs-5">$150.00</p>
+                      <p class="card-text fw-semibold cart">
+                        + ADD TO CART <span class="ms-3"><i class="fa-regular fa-heart"></i></span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="card cardmain shadow ms-3">
+                    <img src="https://preview.colorlib.com/theme/aranoz/img/product/product_2.png" class="card-img-top" alt="orange-chair" />
+                    <div class="card-body cardbody my-3">
+                      <h5 class="card-title fw-bold">Orange Chair</h5>
+                      <p class="card-text fs-5">$150.00</p>
+                      <p class="card-text fw-semibold cart">
+                        + ADD TO CART <span class="ms-3"><i class="fa-regular fa-heart"></i></span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="card cardmain shadow ms-3">
+                    <img src="https://preview.colorlib.com/theme/aranoz/img/product/product_3.png" class="card-img-top" alt="saffron-chair" />
+                    <div class="card-body cardbody my-3">
+                      <h5 class="card-title fw-bold">Saffron Chair</h5>
+                      <p class="card-text fs-5">$150.00</p>
+                      <p class="card-text fw-semibold cart">
+                        + ADD TO CART <span class="ms-3"><i class="fa-regular fa-heart"></i></span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="card cardmain shadow ms-3">
+                    <img src="https://preview.colorlib.com/theme/aranoz/img/product/product_4.png" class="card-img-top" alt="multiple-design-chair" />
+                    <div class="card-body cardbody my-3">
+                      <h5 class="card-title fw-bold">Multiple Design Chair</h5>
+                      <p class="card-text fs-5">$150.00</p>
+                      <p class="card-text fw-semibold cart">
+                        + ADD TO CART <span class="ms-3"><i class="fa-regular fa-heart"></i></span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Row 2 -->
+                <div class="col-md-3 mt-3">
+                  <div class="card cardmain shadow ms-3">
+                    <img src="https://preview.colorlib.com/theme/aranoz/img/product/product_5.png" class="card-img-top" alt="green-chair" />
+                    <div class="card-body cardbody my-3">
+                      <h5 class="card-title fw-bold">White Chair</h5>
+                      <p class="card-text fs-5">$150.00</p>
+                      <p class="card-text fw-semibold cart">
+                        + ADD TO CART <span class="ms-3"><i class="fa-regular fa-heart"></i></span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3 mt-3">
+                  <div class="card cardmain shadow ms-3">
+                    <img src="https://preview.colorlib.com/theme/aranoz/img/product/product_6.png" class="card-img-top" alt="orange-chair" />
+                    <div class="card-body cardbody my-3">
+                      <h5 class="card-title fw-bold">Green Chair</h5>
+                      <p class="card-text fs-5">$150.00</p>
+                      <p class="card-text fw-semibold cart">
+                        + ADD TO CART <span class="ms-3"><i class="fa-regular fa-heart"></i></span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3 mt-3">
+                  <div class="card cardmain shadow ms-3">
+                    <img src="https://preview.colorlib.com/theme/aranoz/img/product/product_7.png" class="card-img-top" alt="saffron-chair" />
+                    <div class="card-body cardbody my-3">
+                      <h5 class="card-title fw-bold">White Chair</h5>
+                      <p class="card-text fs-5">$150.00</p>
+                      <p class="card-text fw-semibold cart">
+                        + ADD TO CART <span class="ms-3"><i class="fa-regular fa-heart"></i></span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3 mt-3">
+                  <div class="card cardmain shadow ms-3">
+                    <img src="https://preview.colorlib.com/theme/aranoz/img/product/product_8.png" class="card-img-top" alt="multiple-design-chair" />
+                    <div class="card-body cardbody my-3">
+                      <h5 class="card-title fw-bold">Red Chair</h5>
+                      <p class="card-text fs-5">$150.00</p>
+                      <p class="card-text fw-semibold cart">
+                        + ADD TO CART <span class="ms-3"><i class="fa-regular fa-heart"></i></span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="carousel-item" data-bs-interval="2500">
+              <div class="row">
+                <!-- Row 1 -->
+                <div class="col-md-3">
+                  <div class="card cardmain shadow ms-3">
+                    <img src="https://preview.colorlib.com/theme/aranoz/img/product/product_1.png" class="card-img-top" alt="green-chair" />
+                    <div class="card-body cardbody my-3">
+                      <h5 class="card-title fw-bold">Green Chair</h5>
+                      <p class="card-text fs-5">$150.00</p>
+                      <p class="card-text fw-semibold cart">
+                        + ADD TO CART <span class="ms-3"><i class="fa-regular fa-heart"></i></span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="card cardmain shadow ms-3">
+                    <img src="https://preview.colorlib.com/theme/aranoz/img/product/product_2.png" class="card-img-top" alt="orange-chair" />
+                    <div class="card-body cardbody my-3">
+                      <h5 class="card-title fw-bold">Orange Chair</h5>
+                      <p class="card-text fs-5">$150.00</p>
+                      <p class="card-text fw-semibold cart">
+                        + ADD TO CART <span class="ms-3"><i class="fa-regular fa-heart"></i></span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="card cardmain shadow ms-3">
+                    <img src="https://preview.colorlib.com/theme/aranoz/img/product/product_3.png" class="card-img-top" alt="saffron-chair" />
+                    <div class="card-body cardbody my-3">
+                      <h5 class="card-title fw-bold">Saffron Chair</h5>
+                      <p class="card-text fs-5">$150.00</p>
+                      <p class="card-text fw-semibold cart">
+                        + ADD TO CART <span class="ms-3"><i class="fa-regular fa-heart"></i></span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="card cardmain shadow ms-3">
+                    <img src="https://preview.colorlib.com/theme/aranoz/img/product/product_4.png" class="card-img-top" alt="multiple-design-chair" />
+                    <div class="card-body cardbody my-3">
+                      <h5 class="card-title fw-bold">Multiple Design Chair</h5>
+                      <p class="card-text fs-5">$150.00</p>
+                      <p class="card-text fw-semibold cart">
+                        + ADD TO CART <span class="ms-3"><i class="fa-regular fa-heart"></i></span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Row 2 -->
+                <div class="col-md-3 mt-3">
+                  <div class="card cardmain shadow ms-3">
+                    <img src="https://preview.colorlib.com/theme/aranoz/img/product/product_5.png" class="card-img-top" alt="green-chair" />
+                    <div class="card-body cardbody my-3">
+                      <h5 class="card-title fw-bold">White Chair</h5>
+                      <p class="card-text fs-5">$150.00</p>
+                      <p class="card-text fw-semibold cart">
+                        + ADD TO CART <span class="ms-3"><i class="fa-regular fa-heart"></i></span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3 mt-3">
+                  <div class="card cardmain shadow ms-3">
+                    <img src="https://preview.colorlib.com/theme/aranoz/img/product/product_6.png" class="card-img-top" alt="Green-chair" />
+                    <div class="card-body cardbody my-3">
+                      <h5 class="card-title fw-bold">Green Chair</h5>
+                      <p class="card-text fs-5">$150.00</p>
+                      <p class="card-text fw-semibold cart">
+                        + ADD TO CART <span class="ms-3"><i class="fa-regular fa-heart"></i></span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3 mt-3">
+                  <div class="card cardmain shadow ms-3">
+                    <img src="https://preview.colorlib.com/theme/aranoz/img/product/product_7.png" class="card-img-top" alt="white-chair" />
+                    <div class="card-body cardbody my-3">
+                      <h5 class="card-title fw-bold">Saffron Chair</h5>
+                      <p class="card-text fs-5">$150.00</p>
+                      <p class="card-text fw-semibold cart">
+                        + ADD TO CART <span class="ms-3"><i class="fa-regular fa-heart"></i></span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3 mt-3">
+                  <div class="card cardmain shadow ms-3">
+                    <img src="https://preview.colorlib.com/theme/aranoz/img/product/product_8.png" class="card-img-top" alt="multiple-design-chair" />
+                    <div class="card-body cardbody my-3">
+                      <h5 class="card-title fw-bold">Red Chair</h5>
+                      <p class="card-text fs-5">$150.00</p>
+                      <p class="card-text fw-semibold cart">
+                        + ADD TO CART <span class="ms-3"><i class="fa-regular fa-heart"></i></span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- big product -->
+    <section class="sec-5 my-5 pt-5 pd-5">
+      <div class="container d-lg-flex d-block my-5">
+        <div class="row">
+          <div class="col">
+            <img src="https://preview.colorlib.com/theme/aranoz/img/offer_img.png" class="img-fluid pt-5" alt="" />
+          </div>
+        </div>
+        <div class="col my-5 pt-5 ms-lg-5 ps-lg-5">
+          <p class="display-3 fw-bold diplay-sm">Weekly Sale on 60% Off All Products</p>
+          <div class="col mb-5">
+            <ul class="list-unstyled d-flex gap-lg-5 gap-4 ms-lg-5 ps-lg-5 fs-5 fw-lg-bold text-muted">
+              <li class="text-center">
+                <span class="d-block mb-2 fw-semibold">Days</span>
+                <span class="mt-5 fw-bold text-dark h1">00</span>
+              </li>
+              <li class="text-center">
+                <span class="d-block mb-2">Hours</span>
+                <span class="mt-5 fw-bold text-dark h1">00</span>
+              </li>
+              <li class="text-center">
+                <span class="d-block mb-2">Minutes</span>
+                <span class="mt-5 fw-bold text-dark h1">00</span>
+              </li>
+              <li class="text-center">
+                <span class="d-block mb-2">Seconds</span>
+                <span class="mt-5 fw-bold text-dark h1">00</span>
+              </li>
+            </ul>
+          </div>
+          <div class="conatiner">
+            <div class="input-group mb-lg-3 ms-lg-5" style="width: 75%">
+              <input type="text" class="form-control fs-5 p-lg-3 input shadow-none border-none" placeholder="Enter Email Address" aria-label="Recipient’s username" aria-describedby="button-addon2" />
+              <button class="btn btn-primary btnemail px-lg-4" type="button" id="button-addon2">BOOK NOW</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="sec-6">
+      <div class="container">
+        <div class="container cardrow4 mb-3">
+          <h1 class="fw-bold">
+            Best Sellers
+            <span class="text-muted ms-5 fs-4 fw-bold">shop</span>
+          </h1>
+        </div>
+
+        <!-- Carousel Navigation -->
+        <nav aria-label="Page navigation example" class="d-flex justify-content-end mb-2">
+          <ul class="pagination">
+            <li class="page-item">
+              <button class="page-link btn-page fw-bold text-dark" type="button" data-bs-target="#carousel2rows" data-bs-slide="prev">Previous</button>
+            </li>
+            <li class="page-item">
+              <button class="page-link btn-page fw-bold text-dark" type="button" data-bs-target="#carousel2rows" data-bs-slide="next">Next</button>
+            </li>
+          </ul>
+        </nav>
+
+        <!-- Carousel -->
+        <div id="carousel2rows" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <!-- Slide 1 -->
+            <div class="carousel-item active" data-bs-interval="2500">
+              <div class="row">
+                <div class="col-md-3">
+                  <div class="card cardmain shadow ms-3">
+                    <img src="https://preview.colorlib.com/theme/aranoz/img/product/product_1.png" class="card-img-top" alt="green-chair" />
+                    <div class="card-body cardbody my-3">
+                      <h5 class="card-title fw-bold">Green Chair</h5>
+                      <p class="card-text fs-5">$150.00</p>
+                      <p class="card-text fw-semibold cart">
+                        + ADD TO CART <span class="ms-3"><i class="fa-regular fa-heart"></i></span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="card cardmain shadow ms-3">
+                    <img src="https://preview.colorlib.com/theme/aranoz/img/product/product_2.png" class="card-img-top" alt="orange-chair" />
+                    <div class="card-body cardbody my-3">
+                      <h5 class="card-title fw-bold">Orange Chair</h5>
+                      <p class="card-text fs-5">$150.00</p>
+                      <p class="card-text fw-semibold cart">
+                        + ADD TO CART <span class="ms-3"><i class="fa-regular fa-heart"></i></span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="card cardmain shadow ms-3">
+                    <img src="https://preview.colorlib.com/theme/aranoz/img/product/product_3.png" class="card-img-top" alt="saffron-chair" />
+                    <div class="card-body cardbody my-3">
+                      <h5 class="card-title fw-bold">Saffron Chair</h5>
+                      <p class="card-text fs-5">$150.00</p>
+                      <p class="card-text fw-semibold cart">
+                        + ADD TO CART <span class="ms-3"><i class="fa-regular fa-heart"></i></span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="card cardmain shadow ms-3">
+                    <img src="https://preview.colorlib.com/theme/aranoz/img/product/product_4.png" class="card-img-top" alt="multiple-design-chair" />
+                    <div class="card-body cardbody my-3">
+                      <h5 class="card-title fw-bold">Multiple Design Chair</h5>
+                      <p class="card-text fs-5">$150.00</p>
+                      <p class="card-text fw-semibold cart">
+                        + ADD TO CART <span class="ms-3"><i class="fa-regular fa-heart"></i></span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="carousel-item" data-bs-interval="2500">
+              <div class="row">
+                <div class="col-md-3">
+                  <div class="card cardmain shadow ms-3">
+                    <img src="https://preview.colorlib.com/theme/aranoz/img/product/product_5.png" class="card-img-top" alt="white-chair" />
+                    <div class="card-body cardbody my-3">
+                      <h5 class="card-title fw-bold">White Chair</h5>
+                      <p class="card-text fs-5">$150.00</p>
+                      <p class="card-text fw-semibold cart">
+                        + ADD TO CART <span class="ms-3"><i class="fa-regular fa-heart"></i></span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="card cardmain shadow ms-3">
+                    <img src="https://preview.colorlib.com/theme/aranoz/img/product/product_6.png" class="card-img-top" alt="green-chair" />
+                    <div class="card-body cardbody my-3">
+                      <h5 class="card-title fw-bold">Green Chair</h5>
+                      <p class="card-text fs-5">$150.00</p>
+                      <p class="card-text fw-semibold cart">
+                        + ADD TO CART <span class="ms-3"><i class="fa-regular fa-heart"></i></span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="card cardmain shadow ms-3">
+                    <img src="https://preview.colorlib.com/theme/aranoz/img/product/product_7.png" class="card-img-top" alt="white-chair" />
+                    <div class="card-body cardbody my-3">
+                      <h5 class="card-title fw-bold">White Chair</h5>
+                      <p class="card-text fs-5">$150.00</p>
+                      <p class="card-text fw-semibold cart">
+                        + ADD TO CART <span class="ms-3"><i class="fa-regular fa-heart"></i></span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="card cardmain shadow ms-3">
+                    <img src="https://preview.colorlib.com/theme/aranoz/img/product/product_8.png" class="card-img-top" alt="red-chair" />
+                    <div class="card-body cardbody my-3">
+                      <h5 class="card-title fw-bold">Red Chair</h5>
+                      <p class="card-text fs-5">$150.00</p>
+                      <p class="card-text fw-semibold cart">
+                        + ADD TO CART <span class="ms-3"><i class="fa-regular fa-heart"></i></span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- background-image -->
+    <section class="sec-7">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <p class="fw-semibold text-center contain" style="letter-spacing: 4px">JOIN OUR NEWSLETTER</p>
+            <p class="fw-bold text-center display-3 ms-lg-5 mt-5 diplay-sm">Subscribe to get Updated with new offers</p>
+            <div class="container mt-5">
+              <div class="input-group mx-auto" style="width: 40%">
+                <input type="text" class="form-control fs-5 p-3 w-25 my-3 border-0 shadow-sm" placeholder="Enter Email Address" aria-label="Recipient’s email" aria-describedby="button-addon2" />
+                <button class="btn btn-primary fw-semibold px-3 btnemail ms-3 my-3" type="button" id="button-addon2">Subscribe Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- grid-images -->
+    <section class="sec-8 my-5">
+      <div class="container my-5">
+        <div class="row">
+          <div class="col ">
+            <div class="card-group  mt-5 w-75  mx-auto">
+              <div class="card border-top-0 border-start-0">
+                <img src="https://preview.colorlib.com/theme/aranoz/img/client_logo/client_logo_1.png" class="card-img-top img-fluid p-4" alt="Img-1 " />
+              </div>
+              <div class="card border-top-0">
+                <img src="https://preview.colorlib.com/theme/aranoz/img/client_logo/client_logo_3.png" class="card-img-top img-fluid p-4" alt="Img-2" />
+              </div>
+              <div class="card border-top-0">
+                <img src="https://preview.colorlib.com/theme/aranoz/img/client_logo/client_logo_2.png" class="card-img-top img-fluid p-4" alt="Img-3" />
+              </div>
+              <div class="card border-top-0">
+                <img src="https://preview.colorlib.com/theme/aranoz/img/client_logo/client_logo_4.png" class="card-img-top img-fluid p-4" alt="Img-4" />
+              </div>
+              <div class="card border-top-0 border-end-0">
+                <img src="https://preview.colorlib.com/theme/aranoz/img/client_logo/client_logo_5.png" class="card-img-top img-fluid p-4" alt="Img-5" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="card-group  w-75 mx-auto ">
+              <div class="card border-top-0 border-bottom-0 border-start-0  ">
+                <img src="https://preview.colorlib.com/theme/aranoz/img/client_logo/client_logo_3.png" class="card-img-top img-fluid p-4" alt="Img-1" />
+              </div>
+              <div class="card border-top-0 border-bottom-0">
+                <img src="https://preview.colorlib.com/theme/aranoz/img/client_logo/client_logo_5.png" class="card-img-top img-fluid p-4" alt="Img-2" />
+              </div>
+              <div class="card border-top-0 border-bottom-0">
+                <img src="https://preview.colorlib.com/theme/aranoz/img/client_logo/client_logo_4.png" class="card-img-top img-fluid p-4" alt="Img-3" />
+              </div>
+              <div class="card border-top-0 border-bottom-0">
+                <img src="https://preview.colorlib.com/theme/aranoz/img/client_logo/client_logo_2.png" class="card-img-top img-fluid p-4" alt="Img-4" />
+              </div>
+              <div class="card border-top-0 border-bottom-0   border-end-0">
+                <img src="https://preview.colorlib.com/theme/aranoz/img/client_logo/client_logo_1.png" class="card-img-top img-fluid p-4" alt="Img-5" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+    <section class="sec-9 ms-lg-5">
+       <div class="container-fluid">
+        <div class="d-lg-flex ps-lg-5 hverr  my-5">
+        <ul class="list-unstyled  ms-lg-5">
+          <li class="mb-4 fw-semibold  fs-4 ">Top Products</li>
+          <li class=" hover">Managed Website</li>
+          <li class="mt-2  hover">Manage Reputation</li>
+          <li  class="mt-2  hover">Power Tools</li>
+          <li  class="mt-2  hover">Marketing Service</li>
+        </ul>
+        <ul class="list-unstyled  ms-lg-5">
+          <li class="mb-4 fw-semibold fs-4 ">Quick Links</li>
+          <li class=" hover ">Jobs</li>
+          <li class="mt-2 hover">Brand Assest</li>
+          <li  class="mt-2  hover">Investor Relations</li>
+          <li  class="mt-2  hover">Terms and Services</li>
+        </ul>
+        <ul class="list-unstyled  ms-lg-5">
+          <li class="mb-4 fw-semibold fs-4 ">Features</li>
+          <li class=" hover">Jobs</li>
+          <li class="mt-2  hover">Brand Assest</li>
+          <li  class="mt-2  hover">Investor Relations</li>
+          <li  class="mt-2  hover">Terms and Services</li>
+        </ul>
+        <ul class="list-unstyled ms-lg-5">
+          <li class="mb-4 fw-semibold fs-4 ">Resources</li>
+          <li class=" hover ">Guides</li>
+          <li class="mt-2  hover">Research</li>
+          <li  class="mt-2  hover">Experts</li> 
+          <li  class="mt-2  hover">Agencies</li>
+        </ul>
+        <ul class="list-unstyled  mx-lg-5">
+          <li class="mb-4 fw-semibold fs-4 ">Newsletters</li>
+          <li class=" hover mb-3">Heaven fruitful doesn't over lesser in days. Appear creeping</li>
+             <div class="input-group  mb-3">
+            <input type="text" class="form-control " placeholder="Your Email" aria-label="Recipient’s username" aria-describedby="button-addon2">
+              <button class="btn btn-outline-secondary btnemail text-white" type="button" id="button-addon2">subscribe Now</button></div>
+        </ul>
+       </div>
+    </section>
+    <!-- last section -->
+    <section class="sec-10">
+      <footer>
+        <div class="container d-lg-flex justify-content-lg-between text-lg-start  ">
+        <div class="row my-3 ">
+          <div class="col">
+            <p class="text-muted">Copyright ©2025 All rights reserved | This template is made with <i class="fa-regular fa-heart"></i> by <span class="span-123">Colorlib</span></p>
+          </div>
+        </div>
+          <div class="row my-3" >
+          <i class="fa-brands fa-facebook-f text-muted  me-3"></i>
+            <i class="fa-brands fa-twitter text-muted me-3"></i>
+            <i class="fa-solid fa-globe text-muted me-3"></i>
+            <i class="fa-brands fa-google text-muted me-3"></i>
+           </div>
+        </div>
+      </div>
+
+      </footer>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
+</html>

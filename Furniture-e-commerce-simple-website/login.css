@@ -1,0 +1,24 @@
+body{
+    background-color:#cfede5;
+}
+table,tr,th,td{
+    font-size: larger;
+    margin: auto;
+    margin-top: 10%;
+}
+.button{
+        padding: 10px;
+        text-align: center;
+        font-size: 16px;
+        padding-left: 30px;
+        padding-right: 30px;
+        border-radius:10px;
+        margin: auto;
+}
+.button:hover{
+    background-color: rgb(154, 206, 228);
+}
+.input {
+   width: 400px;
+   height: 40px;
+}
