@@ -63,33 +63,3 @@
 background-color: #FF174E;
         border: none;
 }
-/* end */
-.box{
-   background: linear-gradient(90deg, #ff2748 10%,#ff4936 87%);
-   padding:250px 0px ;
-}
-.inp{
-    margin: 70px 0px 30px 50px;
-}
-.userinp{
-       border-top: none;
-    border-right: none;
-    border-left: none;
-}
-.usercheck{
-    margin-left: 10px;
-}
-.btnsign{
-    background-color: #ff3368;
-    border-radius: 20px;
-    border: none;
-}
-.btnsign:hover{
-        background-color: #ff3368;
-}
-.btncreate{
-    border-radius: 20px;
-}
-input{
-    box-shadow: none;
-}
