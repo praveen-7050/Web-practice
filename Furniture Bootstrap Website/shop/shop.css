@@ -1,15 +1,3 @@
-.dropdown:hover .dropdown-menu {
-    display: block;
-    transition: 1s;
-    margin-top: 0; 
-    padding: 0;
-}
-.dropdown-item{
-    background-color: #ff1d4c;
-}
-.dropdown-item:hover{
-    background-color: #f3397a;
-}
 #home{
  background-color:hsl(186, 100%, 96%); 
 }
@@ -42,9 +30,6 @@
     border:none;
     padding:15px 40px;
     transition: 1.8s ease;
-}
-.button:hover {
-    
 }
 .hover{
     color:#6c757d;

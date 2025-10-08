@@ -1,18 +1,3 @@
-.dropdown:hover .dropdown-menu {
-    display: block;
-    transition: 1s;
-    margin-top: 0; 
-    padding: 0;
-}
-.dropdown-item{
-    background-color: #ff1d4c;
-}
-.dropdown-item:hover{
-    background-color: #f3397a;
-}
-/* .dropdown-item:hover{
-    background-color: #ff1d4c;
-} */
 #home{
     background-color:#ecfdff;
 }
@@ -134,4 +119,7 @@ background-color: #FF174E;
 }
 .span-123{
     color:#FF174E;
+}
+.form-control {
+  box-shadow: none !important;
 }
