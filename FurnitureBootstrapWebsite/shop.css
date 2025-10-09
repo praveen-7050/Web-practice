@@ -1,0 +1,97 @@
+#home{
+ background-color:hsl(186, 100%, 96%); 
+}
+.p-1{
+    font-size: 70px;
+    font-weight: 900;
+}
+.sec1-con{
+      background: url(https://preview.colorlib.com/theme/aranoz/img/breadcrumb.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height:50vh;
+     width:100%;
+       
+}
+@media screen and (max-width: 570px){
+     .sec1-con{
+        background: none;
+     }
+}
+.con{
+    height: 100vh;
+}
+.con-main{
+    margin-top: 100px;
+}
+.button{
+    background-color: #FF174E;
+    border:none;
+    padding:15px 40px;
+    transition: 1.8s ease;
+}
+.hover{
+    color:#6c757d;
+}
+.hover:hover{
+    color:#FF174E;
+}
+.span-123{
+    color:#FF174E;
+}
+.btnemail{
+    background-color: #FF174E;
+    border: none;
+}
+.btnemail:hover{
+background-color: #FF174E;
+        border: none;
+}
+.span-products{
+    color: #f3397a;
+}
+/* card */
+.cardimg {
+  background-color: #f8fbff;
+  border: hidden;
+  align-items: center;
+}
+.cardimg .cardexplore {
+  opacity: 0;
+  color: #ff0259;
+  transition: 0.5s;
+  margin-top: 30px;
+}
+.cardimg:hover .cardexplore {
+  opacity: 2;
+  transform: translatey(-10px);
+}
+.cardfooter-1 {
+  color: #ff0259;
+}
+.cardfoot {
+  color: #ff0259;
+}
+.cardrow4 {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.carousel-item {
+  transition: transform 1s ease;
+}
+.cart {
+  color: #ff0259;
+  opacity: 0;
+}
+.cardmain:hover .cardbody {
+  transform: translateX(50px);
+  transition: 0.8s ease;
+}
+.card:hover .cart{
+ opacity: 1;
+  transition: 0.5s ease;
+}
+.form-control {
+  box-shadow: none !important;
+}

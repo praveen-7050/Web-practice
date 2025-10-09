@@ -1,0 +1,73 @@
+#home{
+ background-color:hsl(186, 100%, 96%); 
+}
+.p-1{
+    font-size: 70px;
+    font-weight: 900;
+}
+.sec1-con{
+      background: url(https://preview.colorlib.com/theme/aranoz/img/breadcrumb.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height:50vh;
+     width:100%;
+       
+}
+@media screen and (max-width: 570px){
+     .sec1-con{
+        background: none;
+     }
+}
+.con{
+    height: 100vh;
+}
+.con-main{
+    margin-top: 100px;
+}
+.button{
+    background-color: #FF174E;
+    border:none;
+    padding:15px 40px;
+    transition: 1.8s ease;
+}
+.hover{
+    color:#6c757d;
+}
+.hover:hover{
+    color:#FF174E;
+}
+.span-123{
+    color:#FF174E;
+}
+.btnemail{
+    background-color: #FF174E;
+    border: none;
+}
+.btnemail:hover{
+background-color: #FF174E;
+        border: none;
+}
+.backcolor {
+  background: #e8eaed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 70vh;   
+  width: 80%;       
+  position: relative; 
+  margin: 0 auto;  
+}
+@media screen and (max-width:570px) {
+     .backcolor{
+        font-size: 10px;
+     }
+}
+.sendbtn{
+    background-color:#ff3368;
+    color: white;
+    border-radius: 20px;
+}
+.form-control {
+  box-shadow: none !important;
+}
