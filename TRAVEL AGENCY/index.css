@@ -1,0 +1,58 @@
+body {
+  overflow-x: hidden;
+}
+/* off canvas */
+.offcanvas {
+  width: 100px;
+  transition: transform 0.4s ease-in-out;
+}
+/* li-link */
+.title-name{
+    color:#60A3D9;
+}
+.title-name:hover{
+    color:oklab(69.296% -0.04534 -0.09504);
+}
+.li-link:hover{
+   color: rgb(69, 69, 241);
+}
+.sec-banner{
+  background-image: url(https://themewagon.github.io/BusTraveller/img/background6.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+/* bg */
+.bg{
+  background-color: rgb(197, 194, 194);
+}
+.imgsrc{
+  height: 70vh;
+}
+.bookbg{
+  background-image: url(https://themewagon.github.io/BusTraveller/img/showcase2.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 20vh;
+}
+.bglastpack{
+  background-color: rgb(223, 232, 240);
+  border-radius: 20px;
+}
+
+.card-hover {
+  transition: 0.3s; 
+  box-shadow: none; 
+}
+
+.card-hover:hover {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); 
+}
+.form-control{
+  box-shadow: none !important;
+}
+.footer{
+ background-color:#f3f4f6 ; 
+}
